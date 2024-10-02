@@ -75,7 +75,7 @@ void solve() {
     int l1,r1,l2,r2;
     cin>>l1>>r1>>l2>>r2;
     int ans = pre[l2][r2]-pre[l1-1][r2]-pre[l2][r1-1]+pre[l1-1][r1-1];
-    cout<<ans<<nl
+    cout<<ans<<nl;
   }
 
 }
